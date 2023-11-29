@@ -1,5 +1,5 @@
 import { db } from "@/db";
-import ChatWrapper from '@/components/ChatWrapper'
+import ChatWrapper from '@/components/chat/ChatWrapper'
 import PdfRenderer from '@/components/PdfRenderer'
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { notFound, redirect } from "next/navigation";
